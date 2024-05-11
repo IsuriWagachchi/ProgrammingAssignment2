@@ -18,7 +18,10 @@ makeCacheMatrix <- function(x = matrix()) {
 		inver%*%x
 		}			#function to obtain inverse of the matrix
 
-	list(set = set, get = get, setinv = setinv, getinv = getinv)
+	list(set = set, 
+	get = get, 
+	setinv = setinv, 
+	getinv = getinv)
 }
 
 ## Write a short comment describing this function
