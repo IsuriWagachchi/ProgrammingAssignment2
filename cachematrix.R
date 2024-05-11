@@ -6,7 +6,7 @@
 #library(MASS) is used to calculate inverse for non squared as well as square matrices
 library(MASS)
 makeCacheMatrix <- function(x = matrix()) {
-	inv<-NULL			#initializing inverse as NULL
+	inv<-NULL			#initializing inverse as null
 	set<-function(y) {
 		x<<-y
 		inv<<-NULL
